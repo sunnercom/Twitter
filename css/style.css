@@ -1,0 +1,289 @@
+.header {
+    margin-top: 17px;
+    margin-bottom: 100px;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    gap: 236px;
+}
+
+.navlink-box .navlink-item {
+    margin-right: 8px;
+    width: 53px;
+    height: 30px;
+    color: rgb(121, 122, 122);
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.navlink-box .navlink-item:hover {
+    border-bottom: 2px solid rgb(29, 161, 242);
+    color: rgb(29, 161, 242);
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-box h3 {
+    width: 123px;
+    height: 59px;
+    color: rgb(29, 161, 242);
+    font-family: Monda;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 59px;
+}
+
+.login {
+    margin-left: 350px;
+    color: rgb(68, 68, 68);
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.login:hover {
+    color: black;
+}
+
+.login img {
+    margin-right: 9px;
+}
+
+/* main */
+.intro-section {
+    margin-bottom: 252px;
+}
+
+.intro-block {
+    display: flex;
+    align-items: center;
+    gap: 324px;
+}
+
+.intro-text h3 {
+    color: rgb(29, 161, 242);
+    font-family: Kanit;
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 61px;
+}
+
+.intro-text p {
+    color: rgb(121, 122, 122);
+    font-family: Kanit;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    width: 473px;
+}
+
+.intro-text a {
+    width: 111px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid rgb(29, 161, 242);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    color: rgb(121, 122, 122);
+    font-family: Kanit;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+    padding: 7px 14px;
+}
+
+.intro-text a:hover {
+    background: rgb(29, 161, 242);
+    color: #fff;
+}
+
+.intro-img {
+    width: 302px;
+    height: 246px;
+}
+
+/* about */
+.about {
+    margin-bottom: 165px;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 344px;
+}
+
+.about-text h3 {
+    width: 220px;
+    height: 67px;
+    color: rgb(29, 161, 242);
+    font-family: Kanit;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 67px;
+}
+
+.about-text p {
+    color: rgb(121, 122, 122);
+    font-family: Kanit;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    width: 354px;
+    height: 174px;
+}
+
+.about-text .playm {
+    width: 100px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid rgb(29, 161, 242);
+    border-radius: 5px;
+    background: rgb(29, 161, 242);
+    padding: 10px 43px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+.apple {
+    width: 100px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid   rgb(29, 161, 242);
+    border-radius: 5px;
+    background: rgb(29, 161, 242);
+    padding: 10px 45px 10px 42px;
+    text-align: center;
+}
+
+.apple:hover {
+    background: rgb(29, 161, 242);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* contact */
+.contact {
+    margin-bottom: 95px;
+}
+
+.contact-s {
+    display: flex;
+    align-items: center;
+    gap: 460px;
+}
+
+.contact-section p {
+    width: 53px;
+    height: 30px;
+    color: rgb(52, 52, 52);
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.contact-section input {
+    width: 250px;
+    height: 41px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.contact-section textarea {
+    width: 250px;
+    height: 90px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+.contact-section button {
+    width: 120px;
+    height: 41px;
+    box-sizing: border-box;
+    border: 1px solid rgb(29, 161, 242);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    color: rgb(121, 122, 122);
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 150px;
+    background: rgb(121, 122, 122);
+}
+
+
+.line-div {
+    width: 1100px;
+    height: 1px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.footer-links {
+    margin-bottom: 12px;
+    padding-top: 23px;
+    text-align: center;
+}
+
+.footer-links a {
+    width: 57px;
+    height: 30px;
+    color: rgb(201, 201, 201);
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+    padding-right: 23px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline rgb(29, 161, 242);
+    color: rgb(29, 161, 242);
+}
+
+.d-creator {
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+}
+
+.d-creator .meta {
+    margin-right: 740px;
+}
+
+.d-creator span {
+    color: rgb(201, 201, 201);
+    font-family: Monda;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 12px;
+}
