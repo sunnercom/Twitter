@@ -1,0 +1,18 @@
+@media (max-width:1150px) {
+    .header-section{
+        padding: 0 30px;
+        justify-content: space-around;
+    }
+    .navlink-box{
+        display: none;
+    }
+    .btn{
+        display: block !important;
+    }
+    .offcanvas-body .navlink-box {
+        display: block !important;
+    }
+    .offcanvas-body .login {
+        margin-left: 0;
+    }
+}
